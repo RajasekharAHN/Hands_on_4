@@ -1,6 +1,7 @@
 PROBLEM 0
 
 2. Prove the time complexity of the algorithms
+   
 A. The time complexity of the given recursive algorithm for implementing the Fibonacci sequence is exponential, which is O(2^n). 
 •	The function takes two recursive calls to itself with n-1 and n-2 until n reaches 0 or 1.
   This will be done when n>1 and makes two recursive calls to fib(n-1) and fib(n-2).
@@ -12,6 +13,7 @@ Therefore, the time complexity of the algorithm is exponential, specifically O(2
 
 
 3. Comment on way's you could improve your implementation
+   
 A. The ways that can improve the implementation are
 i.	Memoization: By utilizing memoization, the algorithm stores previously computed results to avoid redundant calculations,
     reducing the number of recursive calls and improving overall time complexity to O(n).
