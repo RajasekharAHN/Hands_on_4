@@ -16,6 +16,9 @@ Therefore, the time complexity of the algorithm is exponential, specifically O(2
 
 
 
+
+
+
 3. Comment on way's you could improve your implementation
    
 A. The ways that can improve the implementation are
